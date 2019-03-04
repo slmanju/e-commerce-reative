@@ -1,7 +1,8 @@
-package com.slmanju.ecommerce.inventory.service;
+package com.slmanju.ecommerce.inventory.service.impl;
 
 import com.slmanju.ecommerce.inventory.model.Category;
 import com.slmanju.ecommerce.inventory.repository.CategoryRepository;
+import com.slmanju.ecommerce.inventory.service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
